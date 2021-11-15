@@ -7,14 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/assets/css/main.css">
+    <script src="./table.js"></script>
 </head>
 
-<body>
-    <div class="btn-align">
-        <a class="btn" href="http://127.0.0.1:5500/index2.html" target="_parent"> Click Here to Get Data</a>
-        <!--href="http://localhost:3000/getData"-->
+<body style="background-color: rgb(41, 39, 39); color: white;font-family: 'Courier New', Courier, monospace;">
 
+    <div>
+        <h4 style="margin-left:40px;">Select Category</h4>
+        <!-- <input type="text" id="filter" value=""> -->
+        <select class="drop-down" name="cato" id="filter">
+            <option value="full">full</option> 
+            <option value="Animals">Animals</option>
+            <option value="Anime">Anime</option>
+            <option value="Anti-Malware">Anti-Malware</option>
+            <option value="Art & Design">Art & Design</option> 
+            <option value="Authentication">Authentication</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="Books">Books</option>
+            <option value="Business">Business</option>
+            <option value="Calendar">Calendar</option>
+            <option value="Cloud Storage & File Sharing">Cloud Storage & File Sharing</option>
+            <option value="Continuous Integration">Continuous Integration</option>
+            <option value="Cryptocurrency">Cryptocurrency</option>
+            <option value="Currency Exchange">Currency Exchange</option>
+            <option value="Data Validation">Data Validation</option>
+            <option value="Development">Development</option>
+            <option value="Dictionaries">Dictionaries</option>
+            <option value="Environment">Environment</option>
+            <option value="Finance">Finance</option>
+            <!-- <option value="Anime">Anime</option>
+            <option value="Anime">Anime</option> -->
+          
+          </select>
     </div>
+
+
+    <div class="btn-align">
+        <!-- <a class="btn" href="http://127.0.0.1:5500/index2.html" target="_parent"> Click Here to Get Data</a> -->
+        <!-- href="http://localhost:3000/getData" -->
+
+
+        <button class="btn" onclick="getapi()">click here for data</button>
+    </div>
+
+    <div>
+        <table id="table"></table>
+    </div>
+
+
+
+
+    <!-- <input type="text" id="myInput" onkeyup="getapi()" placeholder="Search for names.." title="Type in a name">
+    <table id="table"></table> -->
 </body>
 
 </html>

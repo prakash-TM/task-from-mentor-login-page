@@ -78,9 +78,26 @@ input::placeholder {
     margin-top: 10%;
     background-color: rgb(12, 135, 218);
     width: 20%;
-    height: 40px;
+    height: 65px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(3, 3, 3, 0.3);
+}
+
+table {
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.drop-down {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(196, 191, 191);
+    color: rgb(2, 2, 2);
+    font-size: 15px;
 }
 
 
